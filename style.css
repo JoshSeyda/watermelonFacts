@@ -6,3 +6,9 @@ body{
 	background-color:#303030 ;
 	font-family: 'Roboto', sans-serif;
 }
+.card-image{
+	max-height:100%;
+}
+.card-content{
+	max-height:50%;
+}
