@@ -3,12 +3,8 @@
  		$('.modal').modal();
  		$('#modal1').modal('open');
  	}
-     setTimeout(showModal, 1000)
+     setTimeout(showModal, 3000)
+     $('.sidenav').sidenav();
+     $('.carousel').carousel();
   });
 
-   $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-    $(document).ready(function(){
-    $('.carousel').carousel();
-  });
